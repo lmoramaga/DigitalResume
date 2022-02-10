@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  font-size: 110%;
+  background-color: #fcf7f8;
+}
+
+header {
+  text-align: center;
+  background-color: #343330;
+  color: white;
+}
+
+footer {
+  background-color: #343330;
+  text-align: center;
+  color: white;
+}
+
+#menu {
+  background-color: #45462a;
+  width: 15%;
+}
+
+#noBullets {
+  list-style-type: none;
+}
+
+#contacts {
+  font-size: 6rem;
+}
