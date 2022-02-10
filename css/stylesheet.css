@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 110%;
   background-color: #fcf7f8;
 }
@@ -8,6 +8,12 @@ header {
   text-align: center;
   background-color: #343330;
   color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.main-content {
+    margin-left: 10%;
 }
 
 footer {
@@ -16,21 +22,28 @@ footer {
   color: white;
 }
 
-#menu {
+.menu {
   background-color: #45462a;
   width: 15%;
+  color: white;
+  padding: 0.2%;
+  margin-top: 2%;
 }
 
-#noBullets {
+.noBullets {
   list-style-type: none;
 }
 
-#contacts {
+.contacts {
   font-size: 6rem;
 }
 
-#myImg {
+.myImg {
   width: 150px;
   height: 200px;
-  border-radius: 20px;
+  border-radius: 20%; 
+}
+
+.menu-item {
+    color: white;
 }
