@@ -1,6 +1,6 @@
 # CodeSpace - Intro to Web Course
 
-## ResumeChallenges
+## Digital Resume Challenges - Check Branches
 
 ### Tasks
 #### - Resume 1 ✔
