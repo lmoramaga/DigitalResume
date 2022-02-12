@@ -1,0 +1,39 @@
+body{
+  font-family: sans-serif;
+  font-size:110%;
+  background-color: #FCF7F8;
+}
+
+header {
+  text-align: center;
+  background-color: #343330;
+  color: #FCF7F8;
+}
+
+footer {
+  background-color: #343330;
+  text-align: center;
+}
+
+#menu
+{background-color: aquamarine;
+  width: 15%;
+
+}
+
+.content-sections
+{
+  border-style: solid;
+  border-width: 2px;
+  border-color: aqua;
+  padding: 0.5%;
+  margin: 0.5%;
+}
+
+.profile-image
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-style: solid;
+}

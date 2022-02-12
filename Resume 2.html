@@ -2,23 +2,32 @@
 <html>
   <head>
     <title>Lina's Digital Resume</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   </head>
   <body>
+    <header>
+      <br />
+      <img
+        src="images/IMG_2754.jpg"
+        alt="Lina's image"
+        class="profile-image"
+      />
     <h1>Lina Moramaga</h1>
     <p>Introduction</p>
-    <br />
-    <img
-      src="images/IMG_2754.jpg"
-      alt="Lina's image"
-      width="150"
-      height="200"
-    />
+  </header>
+  <section>
+    <aside id="menu"> 
+      <h2>Menu</h2>
     <ul>
       <li><a href="#education">Education</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#skills">Skills</a></li>
-      <h2 id="education">Education</h2>
+  
     </ul>
+  </aside>
+  <article>
+    <h2 id="education">Education</h2>
+    <div class="content-sections"> 
     <h3>
       Intro to Web At <a href="http://codespace.co.za/">Codespace Academy</a>
     </h3>
@@ -41,7 +50,9 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
+  </div>
     <h2 id="experience">Experience</h2>
+    <div class="content-sections">
     <h3>Job 1</h3>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -53,6 +64,7 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
+  
     <h3>Job 2</h3>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -63,12 +75,21 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
+  </div>
     <h2 id="skills">Skills</h2>
+    <div class="content-sections">
     <ul>
       <li>Skill 1</li>
       <li>Skill 2</li>
       <li>Skill 3</li>
       <li>Skill 4</li>
     </ul>
+  </div>
+  </section>
+</article>
+    <footer>
+    <h3>Contact details</h3>
+    <a href="http://linkedin.com/">Linkedin</a>
+  </footer>
   </body>
 </html>
