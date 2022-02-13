@@ -15,25 +15,3 @@ footer {
   text-align: center;
 }
 
-#menu
-{background-color: aquamarine;
-  width: 15%;
-
-}
-
-.content-sections
-{
-  border-style: solid;
-  border-width: 2px;
-  border-color: aqua;
-  padding: 0.5%;
-  margin: 0.5%;
-}
-
-.profile-image
-{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border-style: solid;
-}
