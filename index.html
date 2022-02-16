@@ -3,10 +3,12 @@
   <head>
     <title>L. Moramaga Digital Resume</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <!-- Using Font Awesome icons  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <!-- Using Google Fonts' Montserrat -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat-Alternates"
@@ -25,7 +27,7 @@
         <a class="button" href="#about">FIND OUT MORE</a>
       </div>
     </header>
-    <section>
+    <main>
       <div>
         <aside class="sidebar">
           <div class="picture-aside">
@@ -35,69 +37,74 @@
               alt="Lina's image"
             />
             <h4>Web Developer</h4>
-            <h5>Cape Town, Western Cape</h5>
+            <h5>Cape Town, South Africa</h5>
           </div>
           <nav>
-            <a class="menu-item" href="#about"><i class="fa fa-user menu-icon"></i>About Me</a
-            ><a class="menu-item" href="#education"><i class="fa fa-graduation-cap menu-icon"></i>Education</a>
-            <a class="menu-item" href="#experience"><i class="fa fa-cogs menu-icon"></i>Experience</a>
-            <a class="menu-item" href="#skills"><i class="fa fa-star menu-icon"></i>Skills</a>
-            <a class="menu-item" href="#interests"><i class="fa fa-thumbs-up menu-icon"></i>Interests</a>
+            <a class="menu-item" href="#about">
+              <i class="fa fa-user menu-icon"></i>About Me</a
+            >
+            <a class="menu-item" href="#education">
+              <i class="fa fa-graduation-cap menu-icon"></i>Education</a
+            >
+            <a class="menu-item" href="#experience"
+              ><i class="fa fa-suitcase menu-icon"></i>Experience</a
+            >
+            <a class="menu-item" href="#skills"
+              ><i class="fa fa-cogs menu-icon"></i>Skills</a
+            >
+            <a class="menu-item" href="#interests"
+              ><i class="fa fa-star menu-icon"></i>Interests</a
+            >
           </nav>
         </aside>
       </div>
-      <article class="content-box">
+      <section class="content-box">
+        <!-- Using fieldsets for secondary sections inorder to get the legend on the border -->
         <fieldset class="section">
-          <legend id="about">Lina Moramaga</legend>
+          <legend id="about">About Me</legend>
           <p>
-            I have the ability to apply theoretical concepts in the practical world. Excellent communication skills- both oral and written. Flexible and adaptable to demands of changing work environments. Team player and also independently responsible.
+            I have the ability to apply theoretical concepts in the practical
+            world. Excellent communication skills, both oral and written.
+            Flexible and adaptable to demands of changing work environments.
+            Team player and also independently responsible.
           </p>
         </fieldset>
         <fieldset class="section">
           <legend id="education">Education</legend>
-          <i class="fa fa-graduation-cap"></i>
+          <i class="fa fa-graduation-cap subsection-icon"></i>
           <h3>Intro to Web Course</h3>
-          <hr/>
+          <hr />
           <h5>
             <a class="linktext" href="http://codespace.co.za/" target="_blank"
               >Codespace Academy</a
             >
           </h5>
           <p>In Progress - FEB 2022</p>
-          <i class="fa fa-graduation-cap"></i>
+          <i class="fa fa-graduation-cap subsection-icon"></i>
           <h3>Diploma in Hospitality: Accommodation</h3>
-          <hr/>
+          <hr />
           <h5>Cape Peninsula University of Technology</h5>
-          <p>
-            Graduated - 2021
-          </p>
-          <i class="fa fa-graduation-cap"></i>
+          <p>Graduated - 2021</p>
+          <i class="fa fa-graduation-cap subsection-icon"></i>
           <h3>National Senior Certificate</h3>
-          <hr/>
+          <hr />
           <h5>Boleu High School</h5>
-          <p>
-            Matriculated with Bachelor's Pass - 2016
-          </p>
+          <p>Matriculated with Bachelor's Pass - 2016</p>
         </fieldset>
         <fieldset class="section">
           <legend id="experience">Experience</legend>
-          <i class="fa fa-cogs"></i>
+          <i class="fa fa-suitcase subsection-icon"></i>
           <h3>Physician Care - Transcriber</h3>
-          <hr/>
-          <h5>
-            2020 - 2021
-          </h5>
+          <hr />
+          <h5>2020 - 2021</h5>
           <ul>
-            <li>Listen to dictated recordings from medical care provider and
-              adapt them into written form.
-              </li>
+            <li>Listen to dictated recordings from medical care provider.</li>
+            <li>Adapt the recordings into written form.</li>
           </ul>
-          <i class="fa fa-cogs"></i>
+          <i class="fa fa-suitcase subsection-icon"></i>
           <h3>Garden Court Nelson Mandela Boulevard Cape Town</h3>
-          <hr/>
-          <h5>
-            Jan 2019 - Jun 2019
-          </h5>
+          <hr />
+          <h5>Jan 2019 - Jun 2019</h5>
           <ul>
             <li>Preparing the restaurant for service</li>
             <li>Guest service.</li>
@@ -108,52 +115,73 @@
         </fieldset>
         <fieldset class="section">
           <legend id="skills">Skills</legend>
-          <i class="fa fa-star"></i>
-          <hr class="sm"/>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>40 WPM Typist</li>
-            <li>Ability to learn fast</li>
-          </ul>
+          <i class="fa fa-cogs subsection-icon"></i>
+          <hr class="sm" />
+          <!-- For skills progress indication -->
+          <section class="skills-progress">
+            <p class="skill-title">HTML</p>
+            <div class="progress-container">
+              <div class="skills progress html">70%</div>
+            </div>
+
+            <p class="skill-title">CSS</p>
+            <div class="progress-container">
+              <div class="skills progress css">55%</div>
+            </div>
+
+            <p class="skill-title">40 WPM Typist</p>
+            <div class="progress-container">
+              <div class="skills progress typing">80%</div>
+            </div>
+
+            <p class="skill-title">Ability to Learn Fast</p>
+            <div class="progress-container">
+              <div class="skills progress fastlearner">98%</div>
+            </div>
+          </section>
         </fieldset>
         <fieldset class="section">
           <legend id="interests">Interests</legend>
-          <i class="fa fa-thumbs-up"></i>
-          <hr class="sm"/>
+          <i class="fa fa-star subsection-icon"></i>
+          <hr class="sm" />
           <ul>
             <li>Travelling</li>
             <li>Cooking</li>
             <li>Dancing</li>
           </ul>
         </fieldset>
-      </article>
-    </section>
+      </section>
+    </main>
+    <!-- Fixed positioned footer under the sidebar -->
     <footer>
-      <a class="linktext" href="tel:+27636607458" target="_blank">
+      <a class="linktext" href="tel:+27717707498" target="_blank">
         <div class="contacts">
           <i class="fa fa-phone-square"> </i>
-          </div>
-        </a>
+        </div>
+      </a>
       <a class="linktext" href="mailto:linahmoramaga@gmail.com" target="_blank">
         <div class="contacts">
           <i class="fa fa-envelope-square"> </i>
-          </div>
-        </a>
+        </div>
+      </a>
       <a class="linktext" href="https://github.com/lmoramaga" target="_blank">
         <div class="contacts">
-          <i class="fa fa-github"> </i></div></a>
-      <a class="linktext" href="http://www.linkedin.com/in/lmoramaga" target="_blank">
+          <i class="fa fa-github"> </i></div
+      ></a>
+      <a
+        class="linktext"
+        href="https://www.linkedin.com/in/lmoramaga"
+        target="_blank"
+      >
         <div class="contacts">
           <i class="fa fa-linkedin-square"> </i>
-          </div>
-    </a>
-      <a class="linktext" href="https://wa.me/+27636607458" target="_blank">
+        </div>
+      </a>
+      <a class="linktext" href="https://wa.me/+27717707498" target="_blank">
         <div class="contacts">
           <i class="fa fa-whatsapp"> </i>
-          </div>
-        </a>
+        </div>
+      </a>
     </footer>
   </body>
 </html>
-                     

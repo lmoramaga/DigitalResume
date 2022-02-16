@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 110%;
-  background-color: #000000;
+  background: linear-gradient(141deg, #2f6382 0%, #377397 51%, #27536c 75%);
   margin: 0;
   color: #fff;
 }
@@ -38,8 +39,8 @@ body {
   padding: auto;
   text-align: center;
   font-size: x-large;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #000000;
+  background-color: #00000066;
   color: white;
   border: 3px solid #f1f1f1;
   border-radius: 15px;
@@ -54,7 +55,7 @@ body {
 }
 
 .button {
-  background-color: rgb(78, 165, 216);
+  background-color: #4ea5d8;
   border: none;
   color: white;
   padding: 20px;
@@ -76,7 +77,7 @@ body {
 }
 
 .highlighter {
-  color: rgb(78, 165, 216);
+  color: #4ea5d8;
   padding-bottom: 1%;
 }
 
@@ -103,12 +104,16 @@ body {
   height: 100%;
 }
 
+nav {
+  margin-right: 0%;
+}
+
 a.menu-item:link,
 a.menu-item:visited {
   display: block;
   left: 0;
   color: black;
-  width: 136%;
+  width: 137%;
   padding: 10px;
   text-decoration: none;
 }
@@ -119,7 +124,7 @@ a.menu-item:hover {
 }
 
 a.menu-item:active {
-  background-color: rgb(78, 165, 216);
+  background-color: #4ea5d8;
 }
 
 .bulletless {
@@ -130,7 +135,7 @@ a.menu-item:active {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid rgb(255, 255, 255);
+  border: 5px solid #ffffff;
   margin-top: 15%;
   margin-left: 6%;
 }
@@ -154,15 +159,15 @@ i.menu-icon {
   align-content: center;
   justify-content: space-evenly;
   height: 250px;
-  margin: 80% 0% 80% 25%;
+  margin: 95% 0% 95% 25%;
 }
 
 .section {
-  padding-top: 5% 0% 5% 2%;
+  padding-top: 10% 0% 10% 0%;
   margin-top: 2%;
   margin-bottom: 2%;
-  padding-left: 2%;
-  border-radius: 10px;
+  border-radius: 15px;
+  border-style: solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,6 +176,7 @@ i.menu-icon {
 
 p {
   padding-bottom: 5%;
+  text-align: center;
 }
 
 ul {
@@ -180,22 +186,72 @@ ul {
 a.linktext:link,
 a.linktext:visited {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 a.linktext:hover {
-  color: rgb(78, 165, 216);
+  color: #4ea5d8;
+}
+
+.subsection-icon {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 1%;
+  align-self: center;
 }
 
 hr {
-  height: 1%;
-  border-color: rgb(78, 165, 216);
+  border-color: #fff;
+  border-radius: 15px;
+  border-style: solid;
   width: 30%;
   float: left;
 }
 
 hr.sm {
   width: 15%;
+}
+
+.skills-progress {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0% 5% 0%;
+}
+
+p.skill-title {
+  padding-bottom: 0%;
+  font-size: medium;
+}
+
+.skills {
+  text-align: right;
+  padding: 3px 10px 3px;
+  color: white;
+}
+
+.progress {
+  background-color: #2196f3;
+  border-radius: 15px;
+}
+
+.html {
+  width: 70%;
+  
+}
+.css {
+  width: 55%;
+}
+.typing {
+  width: 80%;
+}
+.fastlearner {
+  width: 98%;
+}
+
+.progress-container {
+  width: 100%; 
+  background-color: #ddd;
+  border-radius: 15px;
 }
 
 /* main content end */
